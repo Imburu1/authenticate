@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express Example</title>
+</head>
+<body>
+	<form action="/login" method="GET">
+		<h1>Express Example</h1>
+		<label>UserName: </label><input type="text" name="UserName">
+		<label>Password: </label><input type="Password" name="UserName">
+		<input type="submit" name="Login">
+		<a href="/reg_form">Register</a><br><br>
+</form>
+
+<form action="/delete">
+		<label>Old UserName: </label><input type="text" name="DelName">
+		<input type="submit" name="delete" value="delete"><br><br>
+</form>
+
+<form action="/update">
+		<label>Old UserName: </label><input type="text" name="oldUpdName">
+		<label>New UserName: </label><input type="text" name="updateName">
+		<input type="submit" name="update" value="update">
+</form>
+	
+
+</body>
+</html>
